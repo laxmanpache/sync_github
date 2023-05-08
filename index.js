@@ -29,7 +29,7 @@
 
 import * as fs from 'fs'
 import fetch from 'node-fetch'
-const token='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'
+import { TOKEN } from './Config.js';
 const getAllZip=async()=>{
   console.log('process started')
   for(const repo of repositories){
@@ -37,7 +37,7 @@ const getAllZip=async()=>{
       const zipFile = `./zipFiles/${repo.owner}-${repo.repo}-${repo.branch}.zip`;
     const response = await fetch(zipUrl, {
           headers: {
-            Authorization: `Bearer ${token}`
+            Authorization: `Bearer ${TOKEN}`
           }
         });
   if (response.ok) {
