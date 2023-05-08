@@ -10,11 +10,11 @@
       repo: 'funny',
       branch: 'main'
     },
-    {
-        owner: 'Nuva-Org',
-        repo: 'model_inventory',
-        branch: 'v1.0.0'
-      },
+    // {
+    //     owner: 'Nuva-Org',
+    //     repo: 'model_inventory',
+    //     branch: 'v1.0.0'
+    //   },
       // {
       //   owner: 'LaxmanPache123',
       //   repo: 'noteapp',
