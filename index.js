@@ -10,21 +10,6 @@
       repo: 'funny',
       branch: 'main'
     },
-    // {
-    //     owner: 'Nuva-Org',
-    //     repo: 'model_inventory',
-    //     branch: 'v1.0.0'
-    //   },
-      // {
-      //   owner: 'LaxmanPache123',
-      //   repo: 'noteapp',
-      //   branch: 'main'
-      // },
-      // {
-      //   owner: 'Nuva-Org',
-      //   repo: 'Nimbus-Frontend',
-      //   branch: 'onprem'
-      // },
   ];
 
 import * as fs from 'fs'
